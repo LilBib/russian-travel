@@ -1,0 +1,26 @@
+@import url(../../vendor/inter/inter.css);
+.footer {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 1184px;
+    justify-content: space-between;
+}
+@media screen and (min-width: 1024px) and (max-width: 1280px){
+    .footer {
+        width: 928px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .footer {
+        width: 720px;
+    }
+}
+@media screen and (max-width: 768px){
+    .footer {
+        flex-direction: column;
+        margin-left: 16px;
+        width: max-content;
+    }
+}

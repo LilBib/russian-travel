@@ -1,0 +1,25 @@
+.cover__overlay {
+    position: absolute;
+    left:0;
+    opacity: .5;
+    object-fit: fill;
+    width: 100%;
+}
+.cover__overlay:hover {
+    opacity: 1;
+}
+@media screen and (min-width: 1280px){
+    
+}
+@media screen and (min-width: 1024px) and (max-width: 1280px){
+    
+}
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    
+}
+@media screen and (min-width: 320px) and (max-width: 768px){
+    
+}
+@media screen and (max-width: 320px){
+    
+}

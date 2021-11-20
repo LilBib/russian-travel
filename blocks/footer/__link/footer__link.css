@@ -1,0 +1,30 @@
+@import url(../../../vendor/inter/inter.css);
+.footer__link{
+    margin: 0;
+    margin-right: 18px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+@media screen and (min-width: 1280px){
+    
+}
+@media screen and (min-width: 1024px) and (max-width: 1280px){
+    
+}
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    
+}
+@media screen and (max-width: 768px){
+    .footer__link {
+        font-size: 24px;
+        line-height: 24px;
+        margin-right: 0;
+        margin-bottom: 32px;
+        margin-right: 16px;
+    }
+}

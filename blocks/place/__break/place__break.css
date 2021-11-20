@@ -1,0 +1,7 @@
+/*@media screen and (min-width: 321px) and (max-width: 768px) {
+    .place__break {
+        overflow: hidden;
+        height: 50px;
+        width: 33%;
+    }
+}

@@ -1,0 +1,48 @@
+@import url(../../../vendor/inter/inter.css);
+.place__title {
+    margin: 0;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
+    color: #FFFFFF;
+    margin-bottom: 48px;
+}
+@media screen and (min-width: 1280px){
+    .place__title {
+        font-size: 72px;
+        line-height: 76px;
+        margin-bottom: 48px;
+        max-width: 460px;
+    }
+}
+@media screen and (min-width: 1024px) and (max-width: 1280px){
+    .place__title {
+        font-size: 72px;
+        line-height: 76px;
+        margin-bottom: 48px;
+        max-width: 440px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .place__title {
+        font-size: 42px;
+        line-height: 46px;
+        margin-bottom: 48px;
+        width: 340px;
+        max-width: 340px;
+    }
+    .place:first-of-type .place__title {
+        width: min-content;
+    }
+}
+@media screen and (max-width: 768px){
+    .place__title {
+        font-size: 32px;
+        line-height: 35px;
+        margin-bottom: 32px;
+        max-width: 288px;
+        margin-left: 16px;
+    }
+}
