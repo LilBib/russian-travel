@@ -47,7 +47,7 @@ p {
    .place__paragraph {
         font-size: 16px;
         line-height: 163%;
-        margin: 0 auto;
+        margin-left: 16px;
         max-width: 288px;
     }
     .place__paragraph p:first-child {
