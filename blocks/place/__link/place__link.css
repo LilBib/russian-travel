@@ -8,3 +8,7 @@
     color: #FFFFFF;
     width: max-content;
 }
+
+.place__link:hover {
+    opacity: .8;
+}
