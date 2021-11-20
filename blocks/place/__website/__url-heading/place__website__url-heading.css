@@ -28,9 +28,9 @@
         line-height: 12px;
     }
 }
-@media screen and (max-width: 768px){
-    
-}    .place__website__url-heading {
+@media screen and (max-width: 768px){ 
+    .place__website__url-heading {
     font-size: 12px;
     line-height: 12px;
+    }
 }
