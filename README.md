@@ -17,4 +17,4 @@
 
 **Ссылка на проект на gh-pages**
 
-* [github-pages]https://lilbib.github.io/russian-travel/
+* [github-pages](https://lilbib.github.io/russian-travel/)
