@@ -1,0 +1,33 @@
+.cover__background {
+    width: 100%;
+    min-height: 740px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    background: linear-gradient(rgba(42,44,47,.3), rgba(42,44,47,.3)), url(../../../images/background.png) center/cover;
+    
+}
+.cover__background:hover {
+    background: linear-gradient(rgba(42,44,47,.8), rgba(42,44,47,.8)), url(../../../images/background.png) center/cover;
+}
+@media screen and (min-width: 1279px){
+    .cover__background {
+        min-height: 740px;    
+    }
+}
+@media screen and (min-width: 1023px) and (max-width: 1279px){
+    .cover__background {
+        min-height: 640px;    
+    }
+}
+@media screen and (min-width: 767px) and (max-width: 1023px){
+    .cover__background {
+        min-height: 480px;
+    }
+}
+@media screen and (max-width: 767px){
+    .cover__background {
+        min-height: 200px;
+    }
+}

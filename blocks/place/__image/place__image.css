@@ -2,24 +2,24 @@
     object-fit: contain;
     
 }
-@media screen and (min-width: 1280px){
+@media screen and (min-width: 1279px){
     .place__image {
         max-width: 460px;
     }
 }
-@media screen and (min-width: 1024px) and (max-width: 1280px){
+@media screen and (min-width: 1023px) and (max-width: 1279px){
     .place__image {
         max-width: 440px;
         align-self: flex-start;
     }
 }
-@media screen and (min-width: 768px) and (max-width: 1024px){
+@media screen and (min-width: 767px) and (max-width: 1023px){
     .place__image {
         max-width: 340px;
         align-self: flex-start;
     }
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
     .place__image {
         margin-bottom: 32px;
         width: 320px;
