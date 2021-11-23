@@ -21,6 +21,7 @@
 }
 @media screen and (min-width: 767px) and (max-width: 1023px){
     .place__paragraphs {
+        font-size: 16px;
         max-width: 352px;
     }
 }
@@ -28,14 +29,7 @@
     
    .place__paragraphs {
         font-size: 16px;
-        line-height: 163%;
         margin-left: 16px;
         max-width: 288px;
-    }
-    .place__paragraph p:first-child {
-        margin-bottom: 25px;
-    }
-    .place__paragraph:last-of-type p:first-child {
-        margin-bottom: 0;
     }
 }

@@ -6,17 +6,21 @@
   font-weight: normal;
   text-decoration: none;
   transition: .2s ease-in-out;
+  margin-right: 18px;
 }
 .header__lang-link:hover {
   opacity: .8;
 }
-@media screen and (min-width: 1023px){
+.header__lang-link:last-of-type {
+  margin-right: 0;
+}
+@media screen and (min-width: 767px){
   .header__lang-link {
     font-size: 24px;
     line-height: 28px;
   }
 }
-@media screen and (max-width: 1023px){
+@media screen and (max-width: 767px){
   .header__lang-link {
     font-size: 18px;
     line-height: 20px;
